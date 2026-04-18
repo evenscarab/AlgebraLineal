@@ -627,7 +627,7 @@ En sistemas no homogéneos $A\mathbf{x} = \mathbf{b}$:
 La ecuación matricial $A\mathbf{x} = \mathbf{b}$ y la ecuación vectorial $x_1\mathbf{a}_1 + \dots + x_n\mathbf{a}_n = \mathbf{b}$ son equivalentes en términos de notación. Sin embargo, la perspectiva cambia cuando se interpreta $A$ como una **transformación** que actúa sobre $\mathbf{x}$ para producir $\mathbf{b}$. Este enfoque dinámico permite analizar cómo $A$ modifica $\mathbf{x}$, incluso en contextos como gráficos computacionales o procesamiento de señales.
 
 <div class="w-full flex justify-center py-6">
-  <img src="/image-1.svg" class="max-w-[500px] w-full" alt="Multiplicación matricial" />
+  <img src="${"/AlgebraLineal/"}image-1.svg" class="max-w-[500px] w-full" alt="Multiplicación matricial" />
 </div>
 
 Una **transformación** de $T: \mathbb{R}^n \to \mathbb{R}^m$ asigna a cada vector $\mathbf{x} \in \mathbb{R}^n$ un vector $T(\mathbf{x}) \in \mathbb{R}^m$, donde:
@@ -636,7 +636,7 @@ Una **transformación** de $T: \mathbb{R}^n \to \mathbb{R}^m$ asigna a cada vect
 * El **rango** es el conjunto de todas las imágenes $T(\mathbf{x})$
 
 <div class="w-full flex justify-center py-6">
-  <img src="/image-1-1.svg" class="max-w-[500px] w-full" alt="Diagrama de transformación lineal" />
+  <img src="${"/AlgebraLineal/"}image-1-1.svg" class="max-w-[500px] w-full" alt="Diagrama de transformación lineal" />
 </div>
 
 ### Transformación Matricial
@@ -662,9 +662,7 @@ Una **transformación lineal** $T: \mathbb{R}^n \rightarrow \mathbb{R}^m$ es un 
 <div class="info-box thm mt-6">
   <div class="box-label">Propiedades de las Transformaciones</div>
 
-  1. **Preservación de la suma:** 
-  
-  $$
+  1. **Preservación de la suma:** $$
   T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v}) \quad \forall \mathbf{u}, \mathbf{v} \in \mathbb{R}^n
   $$
   
