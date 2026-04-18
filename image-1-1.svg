@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="100%">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#AEABA5" />
+    </marker>
+  </defs>
+
+  <!-- Left Plane (Dominio) -->
+  <polygon points="60,110 60,260 160,200 160,50" fill="#E9E6E0" opacity="0.4" stroke="#AEABA5" stroke-width="1" />
+  <text x="80" y="290" font-family="sans-serif" font-size="14" fill="#6B6965">Dominio</text>
+  <text x="70" y="240" font-family="serif" font-size="16" fill="#6B6965">ℝⁿ</text>
+  
+  <circle cx="110" cy="140" r="3" fill="#2E2D2B" />
+  <text x="95" y="145" font-family="serif" font-style="italic" font-weight="bold" font-size="14" fill="#2E2D2B">x</text>
+
+  <!-- Right Space (Codominio) -->
+  <!-- Box lines -->
+  <path d="M 380 140 L 480 140 L 480 240 L 380 240 Z" fill="none" stroke="#DDD9D1" stroke-width="1.5" />
+  <path d="M 430 90 L 530 90 L 530 190 L 430 190 Z" fill="none" stroke="#DDD9D1" stroke-width="1.5" />
+  <path d="M 380 140 L 430 90 M 480 140 L 530 90 M 480 240 L 530 190 M 380 240 L 430 190" fill="none" stroke="#DDD9D1" stroke-width="1.5" />
+  
+  <text x="430" y="290" font-family="sans-serif" font-size="14" fill="#6B6965">Codominio</text>
+  <text x="410" y="225" font-family="serif" font-size="16" fill="#6B6965">ℝᵐ</text>
+
+  <!-- Range Plane -->
+  <polygon points="410,130 490,110 510,190 430,210" fill="#DDD9D1" opacity="0.8" stroke="#AEABA5" stroke-width="1" />
+  <text x="445" y="180" font-family="sans-serif" font-size="13" font-weight="600" fill="#6B6965" transform="rotate(10, 445, 180)">Rango</text>
+
+  <!-- Point in Range -->
+  <circle cx="460" cy="135" r="3" fill="#2E2D2B" />
+  <text x="468" y="130" font-family="serif" font-size="14" font-weight="bold" fill="#2E2D2B">T(x)</text>
+
+  <!-- Arrow -->
+  <path d="M 115 138 Q 280 80 452 133" fill="none" stroke="#AEABA5" stroke-width="1.5" marker-end="url(#arrow)" />
+  <text x="290" y="100" font-family="serif" font-style="italic" font-weight="bold" font-size="16" fill="#6B6965">T</text>
+</svg>
