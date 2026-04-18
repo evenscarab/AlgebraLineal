@@ -1,0 +1,16 @@
+{
+  "name": "Álgebra Lineal",
+  "short_name": "Álgebra",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F5F3EF",
+  "theme_color": "#F5F3EF",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
