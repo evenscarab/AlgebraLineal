@@ -662,7 +662,9 @@ Una **transformación lineal** $T: \mathbb{R}^n \rightarrow \mathbb{R}^m$ es un 
 <div class="info-box thm mt-6">
   <div class="box-label">Propiedades de las Transformaciones</div>
 
-  1. **Preservación de la suma:** $$
+  1. **Preservación de la suma:** 
+  
+  $$
   T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v}) \quad \forall \mathbf{u}, \mathbf{v} \in \mathbb{R}^n
   $$
   
