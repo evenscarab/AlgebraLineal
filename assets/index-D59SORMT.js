@@ -627,7 +627,7 @@ En sistemas no homogéneos $A\mathbf{x} = \mathbf{b}$:
 La ecuación matricial $A\mathbf{x} = \mathbf{b}$ y la ecuación vectorial $x_1\mathbf{a}_1 + \dots + x_n\mathbf{a}_n = \mathbf{b}$ son equivalentes en términos de notación. Sin embargo, la perspectiva cambia cuando se interpreta $A$ como una **transformación** que actúa sobre $\mathbf{x}$ para producir $\mathbf{b}$. Este enfoque dinámico permite analizar cómo $A$ modifica $\mathbf{x}$, incluso en contextos como gráficos computacionales o procesamiento de señales.
 
 <div class="w-full flex justify-center py-6">
-  <img src="${"/AlgebraLineal/"}image-1.svg" class="max-w-[500px] w-full" alt="Multiplicación matricial" />
+  <img src="/AlgebraLineal/image-1.svg" class="max-w-[500px] w-full" alt="Multiplicación matricial" />
 </div>
 
 Una **transformación** de $T: \mathbb{R}^n \to \mathbb{R}^m$ asigna a cada vector $\mathbf{x} \in \mathbb{R}^n$ un vector $T(\mathbf{x}) \in \mathbb{R}^m$, donde:
@@ -636,7 +636,7 @@ Una **transformación** de $T: \mathbb{R}^n \to \mathbb{R}^m$ asigna a cada vect
 * El **rango** es el conjunto de todas las imágenes $T(\mathbf{x})$
 
 <div class="w-full flex justify-center py-6">
-  <img src="${"/AlgebraLineal/"}image-1-1.svg" class="max-w-[500px] w-full" alt="Diagrama de transformación lineal" />
+  <img src="/AlgebraLineal/image-1-1.svg" class="max-w-[500px] w-full" alt="Diagrama de transformación lineal" />
 </div>
 
 ### Transformación Matricial
@@ -702,7 +702,7 @@ $$
   En términos de matrices, esto ocurre cuando las columnas de la matriz $A$ **generan el espacio completo** de llegada. Es decir, cualquier vector $\mathbf{b}$ en $\mathbb{R}^m$ se puede escribir como combinación lineal de las columnas de $A$. Esto es lo mismo que decir que el sistema $A\mathbf{x} = \mathbf{b}$ siempre tiene solución, o que nunca es inconsistente.
 
 <div class="w-full flex justify-center py-6">
-  <img src="${"/AlgebraLineal/"}sobre.svg" class="max-w-[450px] w-full" alt="Diagrama de transformación sobreyectiva" />
+  <img src="/AlgebraLineal/sobre.svg" class="max-w-[450px] w-full" alt="Diagrama de transformación sobreyectiva" />
 </div>
 
 * **Uno a uno:** Una transformación es **uno a uno** (o "inyectiva") cuando **no hay dos vectores distintos que se transformen en el mismo vector**.  
@@ -711,7 +711,7 @@ $$
   Esto equivale a que el sistema homogéneo $A\mathbf{x} = \mathbf{0}$ solo tenga la solución trivial $\mathbf{x} = \mathbf{0}$. También se puede decir que la matriz $A$ no tiene variables libres (o que sus columnas son independientes).
 
 <div class="w-full flex justify-center py-6">
-  <img src="${"/AlgebraLineal/"}unoauno.svg" class="max-w-[450px] w-full" alt="Diagrama de transformación inyectiva" />
+  <img src="/AlgebraLineal/unoauno.svg" class="max-w-[450px] w-full" alt="Diagrama de transformación inyectiva" />
 </div>
 
 <div class="info-box thm mt-6">
