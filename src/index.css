@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+@import 'katex/dist/katex.min.css';
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-ink: #2E2D2B;
+  --color-ink-2: #6B6965;
+  --color-ink-3: #AEABA5;
+  --color-rule: #DDD9D1;
+  --color-rule-2: #E9E6E0;
+  --color-canvas: #F5F3EF;
+}
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+/* Custom Markdown Styles */
+.markdown-body {
+  font-size: 14.5px;
+}
+@media (min-width: 640px) {
+  .markdown-body {
+    font-size: 16px; /* text-base */
+  }
+}
+
+.markdown-body blockquote {
+  border-left: 3px solid var(--color-rule);
+  padding-left: 1rem;
+  color: var(--color-ink-2);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-body p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.markdown-body p:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.025em;
+}
+
+.markdown-body h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.markdown-body h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.markdown-body ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-body ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-body li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.25rem;
+}
+
+.markdown-body li::marker {
+  color: var(--color-ink-3);
+}
+
+/* Tables */
+.markdown-body table {
+  width: max-content;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 2.5rem auto;
+  background-color: transparent;
+  border: 1px solid var(--color-rule);
+  font-size: 0.95rem;
+  display: block;
+  overflow-x: auto;
+}
+
+.markdown-body th {
+  background-color: transparent;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid var(--color-rule);
+  padding: 1rem 1.5rem;
+  white-space: nowrap;
+}
+
+.markdown-body td {
+  border: 1px solid var(--color-rule);
+  padding: 1rem 1.5rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.katex-display {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  width: 100%;
+  padding: 0.25rem 0;
+  margin: 0.25rem auto 1.25rem auto !important;
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.katex-display > .katex {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Info boxes */
+.info-box {
+  border: 1px solid var(--color-rule);
+  border-radius: 8px;
+  padding: 1.5rem 1.75rem;
+  margin: 2rem 0;
+  background: white;
+  box-shadow: 0 4px 20px -10px rgba(0, 0, 0, 0.05);
+}
+
+.info-box .box-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-ink);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.info-box .box-label::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 12px;
+  background-color: var(--color-ink-3);
+  border-radius: 2px;
+}
